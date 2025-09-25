@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 
-st.title(" Mi Primera App!!")
+st.title(" Daniel App!!")
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
+st.header("En este espacio comienzo mi camino para desarrollar apps y ganar la materia.")
 st.write("Facilmente puedo realizar backend y frontend.")
 image = Image.open('Interfaces Mult2.png')
 
