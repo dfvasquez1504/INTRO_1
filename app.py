@@ -4,14 +4,13 @@ from PIL import Image
 st.title(" Daniel App!!")
 
 st.header("En este espacio comienzo mi camino para desarrollar apps y ganar la materia.")
-st.write("Facilmente puedo realizar backend y frontend.")
 image = Image.open('Marvel.jpg')
 
-st.image(image, caption='Marvel')
+st.image(image, caption='Marvel Rivals')
 
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.write('El texto escrito es', texto)
+st.write('El texto escrito es...', texto)
 
 st.subheader("Ahora usemos 2 Columnas")
 
@@ -57,6 +56,6 @@ st.write(" La acción es:" , set_mod)
 with st.sidebar:
     st.subheader("Configura la modalidad")
     mod_radio = st.radio(
-        "Escoge la modalidad a usar",
+        "Escoge la modalidad que quieres usar usar",
         ("Visual", "Auditiva","Háptica")
     )
