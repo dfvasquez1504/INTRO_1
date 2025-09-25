@@ -5,7 +5,7 @@ st.title(" Daniel App!!")
 
 st.header("En este espacio comienzo mi camino para desarrollar apps y ganar la materia.")
 st.write("Facilmente puedo realizar backend y frontend.")
-image = Image.open('Interfaces Mult2.png')
+image = Image.open('Marvel.jpg')
 
 st.image(image, caption='Marvel')
 
